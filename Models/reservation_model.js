@@ -5,7 +5,7 @@ let Reservation = function (reservation_id , customer_name){
 	this.email = customer_email;
 }
 
-Reservation.prototype.change_Reservation_status = function(status){
+Reservation.prototype.reserve_ = function(status){
 	if (status === true){
 		this.is_reserved = true;
 	}
